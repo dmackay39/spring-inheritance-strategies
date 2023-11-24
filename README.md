@@ -8,6 +8,10 @@ Key for class names:
 * JT - Joined Table
 * TPC - Table Per Class
 
+Info on classes:
+* Each parent class has an @Id annotated Long id. The child classes inherit this in each case.
+* The parent classes have a String field called superField. The child classes have a String field called childField.
+
 # Notes
 ## MappedSuperClass
 * The super class is not annotated with @Entity so there is no table for it.
